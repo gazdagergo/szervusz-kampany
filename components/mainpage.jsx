@@ -138,7 +138,7 @@ export function Mainpage() {
                   <CardContent className="p-6 space-y-4">
                     <h3 className="text-2xl font-bold">Driving Sustainable Change</h3>
                     <p className="text-muted-foreground">
-                      Discover how our campaign's innovative approach led to long-term, sustainable change in a
+                      Discover how our campaign innovative approach led to long-term, sustainable change in a
                       community, creating a lasting impact.
                     </p>
                     <Link
@@ -199,8 +199,8 @@ export function Mainpage() {
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "Our partnership with this campaign has been truly transformative. The level of support and
-                      expertise they provided has been invaluable in driving real change within our organization."
+                      &quot;Our partnership with this campaign has been truly transformative. The level of support and
+                      expertise they provided has been invaluable in driving real change within our organization.&quot;
                     </p>
                   </CardContent>
                 </Card>
@@ -217,9 +217,9 @@ export function Mainpage() {
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "I've been incredibly impressed by the dedication and passion of the team behind this campaign.
+                      &quot;I have been incredibly impressed by the dedication and passion of the team behind this campaign.
                       Their innovative approach and unwavering commitment to making a difference have been truly
-                      inspiring."
+                      inspiring.&quot;
                     </p>
                   </CardContent>
                 </Card>
@@ -236,9 +236,9 @@ export function Mainpage() {
                       </div>
                     </div>
                     <p className="text-muted-foreground">
-                      "This campaign has been a game-changer for our community. The resources and support they've
+                      &quot;This campaign has been a game-changer for our community. The resources and support they have
                       provided have empowered us to tackle long-standing challenges and create a brighter future for
-                      all."
+                      all.&quot;
                     </p>
                   </CardContent>
                 </Card>
