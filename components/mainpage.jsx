@@ -24,6 +24,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link"
+import Image from "next/image"
 import { Card, CardHeader, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
@@ -36,11 +37,10 @@ export function Mainpage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
               <div className="bg-muted/75 p-4 rounded-lg">
-                <h1 className="text-4xl font-bold text-white">Civilek Magyarország Szuverenitásáért</h1>
                 <p className="text-lg text-white">
-                  Join us in our mission to drive real change and make a lasting impact. Our innovative campaign offers
-                  unparalleled opportunities to get involved and make a difference.
+                  Sohasem hittem, hogy az ember akkor szabad, ha azt teheti, amit akar: inkább akkor, ha soha sem kell megtennie, amit nem akar.
                 </p>
+                <h1 className="text-lg text-white text-right">Jean-Jacques Rousseau</h1>
               </div>
               <div className="flex gap-4">
                 <Link
@@ -59,15 +59,11 @@ export function Mainpage() {
             </div>
             <div className="relative">
               <img
-                src="/placeholder.svg"
+                src="/szervusz-logo.gif"
                 width="600"
                 height="400"
                 alt="Campaign Banner"
                 className="mx-auto rounded-xl shadow-lg" />
-              <div
-                className="absolute top-0 right-0 -mt-4 -mr-4 bg-[#a29bfe] rounded-full w-12 h-12 flex items-center justify-center text-white text-2xl">
-                🚀
-              </div>
             </div>
           </div>
         </div>
@@ -77,20 +73,18 @@ export function Mainpage() {
           <div className="container mx-auto max-w-5xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h2 className="text-3xl font-bold mb-4">About Our Campaign</h2>
+                <h2 className="text-3xl font-bold mb-4">Szeretünk SZUVERENITÁS</h2>
                 <p className="text-lg text-muted-foreground">
-                  Our campaign is a transformative initiative that aims to drive real change and make a lasting impact.
-                  Through innovative strategies and a dedicated team, we are committed to empowering individuals and
-                  communities to achieve their goals.
+                  Magyarország és nekünk, polgárai számára az állam szuverenitása az egyik legfontosabb közös értékünk; biztosítja, hogy az állam külső befolyástól függetlenül alakíthassa törvényeit és politikáit, kizárólag polgárai szabadságát és jólétét szem előtt tartva.
                 </p>
                 <p className="text-lg text-muted-foreground mt-4">
-                  By joining our campaign, you'll have the opportunity to be part of something truly remarkable.
-                  Together, we'll tackle pressing issues, inspire positive change, and create a brighter future for all.
+                  A SZERVUSZ kampányban részt vevő civil szervezetek megkerülhetetlen szerepet játszanak az állam szuverenitásának fenntartásában. Segítenek a kormányzati ellenőrzésben, védik az emberi jogokat, és támogatják a demokratikus intézményeket, hozzájárulva ezzel az állam stabilitásához és függetlenségéhez.
+                  Nézz körül az oldalon, és ismerd meg, hogy dolgozunk évek óta szuverenitásunk védelméért és fenntartásáért.
                 </p>
               </div>
               <div className="flex items-center justify-center">
-                <img
-                  src="/placeholder.svg"
+                <Image
+                  src="/szervusz-logo.gif"
                   width="400"
                   height="300"
                   alt="Campaign Description"
@@ -103,9 +97,9 @@ export function Mainpage() {
           <div className="container mx-auto max-w-5xl">
             <div className="space-y-8">
               <div className="text-center">
-                <h2 className="text-3xl font-bold mb-4">Case Studies</h2>
+                <h2 className="text-3xl font-bold mb-4">Tanulmányok a szuverenitásról</h2>
                 <p className="text-lg text-muted-foreground">
-                  Explore real-world examples of our campaign's impact and success stories.
+                  Ismerd meg jobban, miért fontos a szuverenitás, hol érik támadások és mit tehetsz a védelmébe
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -186,10 +180,9 @@ export function Mainpage() {
           <div className="container mx-auto max-w-5xl">
             <div className="space-y-8">
               <div className="text-center">
-                <h2 className="text-3xl font-bold mb-4">Reviews and Recommendations</h2>
+                <h2 className="text-3xl font-bold mb-4">Kampányunk arcai</h2>
                 <p className="text-lg text-muted-foreground">
-                  Hear from influential individuals and organizations who have experienced the impact of our campaign
-                  firsthand.
+                  A munket támogató özéleti személyiségek mind elkötelezettek a magyar szuverenitás mellett. Ismerd meg személyes történetüket.
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -257,10 +250,9 @@ export function Mainpage() {
           <div className="container mx-auto max-w-5xl">
             <div className="space-y-8">
               <div className="text-center">
-                <h2 className="text-3xl font-bold mb-4">Our Partners</h2>
+                <h2 className="text-3xl font-bold mb-4">Szuverenitásunkért dolgozó civil partnereink</h2>
                 <p className="text-lg text-muted-foreground">
-                  We're proud to collaborate with over 100 organizations that share our vision and commitment to driving
-                  positive change.
+                  Kattints a logókra és megtudod, mivel járul hozzá az adott szervezet a magyar szuverenitáshoz.
                 </p>
               </div>
               <div
