@@ -45,15 +45,9 @@ export function Mainpage() {
               <div className="flex gap-4">
                 <Link
                   href="#"
-                  className="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-medium text-[#6c5ce7] shadow-sm transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
+                  className="bg-muted cursor-pointer inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-white hover:text-[#6c5ce7] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
                   prefetch={false}>
-                  Learn More
-                </Link>
-                <Link
-                  href="#"
-                  className="inline-flex items-center justify-center rounded-md border border-white px-6 py-3 text-sm font-medium text-white shadow-sm transition-colors hover:bg-white hover:text-[#6c5ce7] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2"
-                  prefetch={false}>
-                  Get Involved
+                  Támogatom a kampányt
                 </Link>
               </div>
             </div>
@@ -182,7 +176,7 @@ export function Mainpage() {
               <div className="text-center">
                 <h2 className="text-3xl font-bold mb-4">Kampányunk arcai</h2>
                 <p className="text-lg text-muted-foreground">
-                  A munket támogató özéleti személyiségek mind elkötelezettek a magyar szuverenitás mellett. Ismerd meg személyes történetüket.
+                  A minket támogató közéleti személyiségek mind elkötelezettek Magyarország szuverenitása mellett. Ismerd meg személyes történetüket.
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
